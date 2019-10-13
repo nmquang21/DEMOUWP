@@ -129,6 +129,9 @@
     <Compile Include="Pages\FileHandle.xaml.cs">
       <DependentUpon>FileHandle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FreeSong.xaml.cs">
+      <DependentUpon>FreeSong.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
@@ -184,6 +187,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\FileHandle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\FreeSong.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
